@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-scout",
+    "description": "Tyhp type definitions for laravel/scout 11.7.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "11.7.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-scout-impl": "~11.7.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-scout-impl"
+        }
+    }
+}
